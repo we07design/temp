@@ -1,0 +1,7 @@
+{
+  "gpt-5.3-codex": {
+    "model": "gpt-4o",
+    "api_key": "your-api-key-here",
+    "base_url": "https://api.openai.com/v1"
+  }
+}

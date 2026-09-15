@@ -12,20 +12,20 @@ from dataclasses import dataclass, field, asdict
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from agent.openai.agent import Agent
+from alphacrafter.agent.openai.agent import Agent
 
-from agent.instructions import (
+from alphacrafter.agent.instructions import (
     QUANTITATIVE_TRADING_INSTRUCTION_A,
     MINER_INSTRUCTION,
     SCREENER_INSTRUCTION,
     TRADER_INSTRUCTION
 )
-from agent.toolkit import (
+from alphacrafter.agent.toolkit import (
     ReadFileTool, WriteFileTool, ShellTool, 
     GetStockDataTool, GetIndexDataTool, StepTool,
     BacktestTool, SearchFactorTool, GetFinancialStatementsTool, GetNewsTool
 )
-from agent.skills import (
+from alphacrafter.agent.skills import (
     QuantitativeTradingSkill, 
     FactorMiningSkill,
     FactorScreeningSkill,
