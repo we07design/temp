@@ -3,3 +3,8 @@
 *.pem
 __pycache__/
 *.pyc
+.env
+*.key
+*.pem
+__pycache__/
+*.pyc
